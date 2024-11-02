@@ -1,0 +1,11 @@
+{
+  "firstName": "Shawn",
+  "lastName": "Michael",
+  "email": "wwf@enow.com",
+  "password": "DxGen",
+  "street": "somestreet",
+  "city": "someCity",
+  "zip": "YYKY",
+  "noOfPassengers": "4",
+  "totalExpectedPrice": "$2338 USD"
+}

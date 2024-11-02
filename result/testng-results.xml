@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-01T16:27:34 GMT" name="vendor-portal-test" finished-at="2024-11-01T16:28:05 GMT" duration-ms="31074">
+    <groups>
+    </groups>
+    <test started-at="2024-11-01T16:27:34 GMT" name="user-sam-test" finished-at="2024-11-01T16:27:43 GMT" duration-ms="8601">
+      <class name="org.learn.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1acaf3d]" started-at="2024-11-01T16:27:34 GMT" name="setUpDriver" finished-at="2024-11-01T16:27:37 GMT" duration-ms="3252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@27216cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initiateObjects(java.lang.String)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1acaf3d]" started-at="2024-11-01T16:27:37 GMT" name="initiateObjects" finished-at="2024-11-01T16:27:37 GMT" depends-on-methods="org.learn.tests.AbstractTest.setUpDriver" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateObjects -->
+        <test-method signature="userLoginTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1acaf3d]" started-at="2024-11-01T16:27:37 GMT" name="userLoginTest" finished-at="2024-11-01T16:27:39 GMT" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1acaf3d]" started-at="2024-11-01T16:27:39 GMT" name="dashboardTest" finished-at="2024-11-01T16:27:43 GMT" depends-on-methods="org.learn.tests.vendorportal.VendorPortalTest.userLoginTest" duration-ms="3551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1acaf3d]" started-at="2024-11-01T16:27:43 GMT" name="tearDownDriver" finished-at="2024-11-01T16:27:43 GMT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- org.learn.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam-test -->
+    <test started-at="2024-11-01T16:27:43 GMT" name="user-mike-test" finished-at="2024-11-01T16:27:53 GMT" duration-ms="10357">
+      <class name="org.learn.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@df6620a]" started-at="2024-11-01T16:27:43 GMT" name="setUpDriver" finished-at="2024-11-01T16:27:45 GMT" duration-ms="2629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@558bdf1f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initiateObjects(java.lang.String)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@df6620a]" started-at="2024-11-01T16:27:45 GMT" name="initiateObjects" finished-at="2024-11-01T16:27:45 GMT" depends-on-methods="org.learn.tests.AbstractTest.setUpDriver" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateObjects -->
+        <test-method signature="userLoginTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@df6620a]" started-at="2024-11-01T16:27:45 GMT" name="userLoginTest" finished-at="2024-11-01T16:27:47 GMT" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@df6620a]" started-at="2024-11-01T16:27:47 GMT" name="dashboardTest" finished-at="2024-11-01T16:27:53 GMT" depends-on-methods="org.learn.tests.vendorportal.VendorPortalTest.userLoginTest" duration-ms="6060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@df6620a]" started-at="2024-11-01T16:27:53 GMT" name="tearDownDriver" finished-at="2024-11-01T16:27:53 GMT" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- org.learn.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike-test -->
+    <test started-at="2024-11-01T16:27:53 GMT" name="user-john-test" finished-at="2024-11-01T16:28:05 GMT" duration-ms="12093">
+      <class name="org.learn.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="initProperties()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:27:34 GMT" name="initProperties" finished-at="2024-11-01T16:27:34 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initProperties -->
+        <test-method is-config="true" signature="setUpDriver(org.testng.ITestContext)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:27:53 GMT" name="setUpDriver" finished-at="2024-11-01T16:27:56 GMT" duration-ms="2753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8576fa0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method is-config="true" signature="initiateObjects(java.lang.String)[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:27:56 GMT" name="initiateObjects" finished-at="2024-11-01T16:27:56 GMT" depends-on-methods="org.learn.tests.AbstractTest.setUpDriver" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateObjects -->
+        <test-method signature="userLoginTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:27:56 GMT" name="userLoginTest" finished-at="2024-11-01T16:27:57 GMT" duration-ms="1376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:27:57 GMT" name="dashboardTest" finished-at="2024-11-01T16:28:05 GMT" depends-on-methods="org.learn.tests.vendorportal.VendorPortalTest.userLoginTest" duration-ms="7863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:org.learn.tests.vendorportal.VendorPortalTest@1a72a540]" started-at="2024-11-01T16:28:05 GMT" name="tearDownDriver" finished-at="2024-11-01T16:28:05 GMT" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+      </class> <!-- org.learn.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john-test -->
+  </suite> <!-- vendor-portal-test -->
+</testng-results>
